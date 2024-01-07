@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#waitingAreaLocalVideo{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.settings{
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+    background-color: #00000052;
+    max-width: 1216px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.meeting-settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    column-gap: 20px;
+}
+.meeting-settings input{
+    color: #000;
+}
+
+
